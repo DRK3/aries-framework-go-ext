@@ -15,3 +15,5 @@ require (
 	github.com/ory/dockertest/v3 v3.6.2
 	github.com/stretchr/testify v1.6.1
 )
+
+replace github.com/hyperledger/aries-framework-go-ext/test/component/storage => ../../../test/component/storage
